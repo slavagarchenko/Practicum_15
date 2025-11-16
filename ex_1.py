@@ -6,11 +6,11 @@ def pownum(a: int | float, n: int) -> int | float:
     using a recursive approach.
     
     Args:
-    a (int or float): The base number to be raised to the power
-    n (int):          The exponent (non-negative integer)
+        a (int or float): The base number to be raised to the power
+        n (int):          The exponent (non-negative integer)
     
     Returns:
-    int or float:     The result of a raised to the power of n (a^n)
+        int or float:     The result of a raised to the power of n (a^n)
     """
     if n == 0:
         return 1
