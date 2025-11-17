@@ -1,6 +1,6 @@
 def progress(a1: float, r: float, n: int) -> float:
     """
-    Calculate the n-th term of a geometric progression using recursion.
+    Calculate the n-th term of a progression using recursion.
 
     This function computes the n-th term of a progression
     using the recursive formula: a_n = r + a_{n-1}
