@@ -1,4 +1,4 @@
-def ten_to_n(x, n):
+def ten_to_n(x: int, n: int) -> str:
     """
     Convert a decimal integer to its representation in base n using recursion.
     
@@ -26,7 +26,7 @@ def ten_to_n(x, n):
         return ten_to_n(quotient, n) + digits[remainder]
 
 
-def ten_to_n_full(x, n):
+def ten_to_n_full(x: int, n: int) -> str:
     """
     Convert a decimal integer to its representation in base n (complete version).
     
