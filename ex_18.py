@@ -5,7 +5,7 @@ def simmetr(s, i, j):
     This function recursively checks whether the substring s[i:j+1] is a palindrome
     by comparing characters from both ends moving towards the center.
 
-    Parameters:
+    Args:
         s (str): The string to check
         i (int): The starting index of the substring
         j (int): The ending index of the substring
