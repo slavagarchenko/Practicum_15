@@ -1,4 +1,4 @@
-def simmetr(s, i, j):
+def simmetr(s: int, i: int, j: int) -> bool:
     """
     Check if a substring is a palindrome using recursion.
     
