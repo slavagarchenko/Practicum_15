@@ -6,11 +6,11 @@ def mod_number(a, b):
     using the recursive principle of repeated subtraction.
 
     Args:
-    a (int): The dividend (number to be divided).
-    b (int): The divisor (number to divide by).
+        a (int): The dividend (number to be divided).
+        b (int): The divisor (number to divide by).
 
     Returns:
-    int:     The remainder when a is divided by b.
+        int:     The remainder when a is divided by b.
     """
     if a < b:
         return a
