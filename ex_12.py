@@ -1,4 +1,6 @@
-def search(a, x):
+from typing import Any
+
+def search(a: list, x: Any) -> int:
     """
     Search for an element in a list using recursion.
     
