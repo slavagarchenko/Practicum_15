@@ -1,4 +1,4 @@
-def ten_to_bin(x):
+def ten_to_bin(x: int) -> str:
     """
     Convert a decimal integer to its binary representation using recursion.
     
