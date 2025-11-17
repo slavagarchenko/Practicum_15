@@ -1,4 +1,4 @@
-def combin(n, k):
+def combin(n: int, k: int) -> int:
     """
     Calculate the binomial coefficient C(n, k) using recursion.
     
