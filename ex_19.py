@@ -1,4 +1,4 @@
-def count(a, b):
+def count(a: int, b: int) -> int:
     """
     Count the number of squares that can be cut from a rectangle using recursion.
     
