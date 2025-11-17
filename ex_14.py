@@ -9,7 +9,7 @@ def numbers(x: int) -> None:
         x (int): The positive integer to process
 
     Returns:
-        None:    This function prints digits directly, does not return a value
+        None
     """
     if x < 10:
         print(x)
