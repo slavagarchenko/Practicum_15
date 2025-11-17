@@ -1,8 +1,18 @@
 def numbers(x):
     """
+    Print the digits of a number in reverse order using recursion.
+    
+    This function recursively prints the digits of a positive integer
+    from right to left (least significant digit to most significant digit).
+
+    Args:
+    x (int): The positive integer to process
+
+    Returns:
+    None: This function prints digits directly, does not return a value
     """
     if x < 10:
         print(x)
     else:
-        print (x % 10)
+        print(x % 10)
         numbers(x // 10)
