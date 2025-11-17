@@ -5,7 +5,7 @@ def odd_list(a, n):
     This function recursively processes a list and returns a new list containing
     the first n even numbers encountered in the original list.
 
-    Parameters:
+    Args:
         a (list): The input list of integers to process
         n (int):  The maximum number of even numbers to extract
 
