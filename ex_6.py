@@ -1,4 +1,4 @@
-def degree5(n):
+def degree5(n:int) -> int:
     """
     Calculate the exponent of the highest power of 5 that divides n.
     
