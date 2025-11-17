@@ -1,4 +1,4 @@
-def count_digits(n: int) -> int:
+def count(n: int) -> int:
     """
     Count the number of digits in a given integer using recursion.
     
@@ -17,4 +17,4 @@ def count_digits(n: int) -> int:
     if n < 10:
         return 1
     else:
-        return 1 + count_digits(n // 10)
+        return 1 + count(n // 10)
