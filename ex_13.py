@@ -1,4 +1,4 @@
-def odd_list(a, n):
+def odd_list(a: list, n: int) -> list:
     """
     Extract the first n even numbers from a list using recursion.
     
