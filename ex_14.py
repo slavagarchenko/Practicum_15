@@ -1,4 +1,4 @@
-def numbers(x):
+def numbers(x: int) -> None:
     """
     Print the digits of a number in reverse order using recursion.
     
@@ -6,10 +6,10 @@ def numbers(x):
     from right to left (least significant digit to most significant digit).
 
     Args:
-    x (int): The positive integer to process
+        x (int): The positive integer to process
 
     Returns:
-    None: This function prints digits directly, does not return a value
+        None:    This function prints digits directly, does not return a value
     """
     if x < 10:
         print(x)
