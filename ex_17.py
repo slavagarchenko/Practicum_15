@@ -1,4 +1,4 @@
-def function1(x, divisor=None):
+def function1(x: int, divisor=None) -> int:
     """
     Check if a number is prime using recursion.
     
