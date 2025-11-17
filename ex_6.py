@@ -6,10 +6,10 @@ def degree5(n):
     In other words, it finds how many times n can be divided by 5 without leaving a remainder.
 
     Args:
-    n (int): The number to analyze (positive integer).
+        n (int): The number to analyze (positive integer).
 
     Returns:
-    int:     The exponent k where 5^k divides n, or -1 if n is not a power of 5 
+        int:     The exponent k where 5^k divides n, or -1 if n is not a power of 5 
                 or is not divisible by 5.
     """
     if n == 1:
