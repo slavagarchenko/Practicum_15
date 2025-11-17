@@ -1,5 +1,15 @@
 def degree5(n):
     """
+    Calculate the exponent of the highest power of 5 that divides n.
+    
+    This function recursively determines the largest integer k such that 5^k divides n.
+    In other words, it finds how many times n can be divided by 5 without leaving a remainder.
+
+    Args:
+    n (int): The number to analyze (positive integer).
+
+    Returns:
+    int:     The exponent k where 5^k divides n, or -1 if n is not a power of 5 or is not divisible by 5.
     """
     if n == 1:
         return 0
