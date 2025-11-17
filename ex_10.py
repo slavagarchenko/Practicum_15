@@ -1,4 +1,6 @@
-def maxlist(a):
+from typing import Any
+
+def maxlist(a: list) -> Any:
     """
     Find the maximum element in a list using recursion.
     
@@ -9,7 +11,7 @@ def maxlist(a):
         a (list): A list of comparable elements (numbers, strings, etc.)
 
     Returns:
-        The maximum element in the list.
+        Any:      The maximum element in the list.
     """
     if len(a) == 1:
         return a[0]
