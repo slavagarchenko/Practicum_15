@@ -1,4 +1,4 @@
-def mod_number(a, b):
+def mod_number(a: int, b: int) -> int:
     """
     Calculate the modulus (remainder) of two numbers using recursion.
     
