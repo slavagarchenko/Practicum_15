@@ -1,4 +1,4 @@
-def fib(k):
+def fib(k: int) -> int:
     """
     Calculate the k-th Fibonacci number using recursion.
     
