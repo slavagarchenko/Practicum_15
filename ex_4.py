@@ -2,16 +2,16 @@ def progress(a1: float, r: float, n: int) -> float:
     """
     Calculate the n-th term of a geometric progression using recursion.
 
-    This function computes the n-th term of a geometric progression
+    This function computes the n-th term of a progression
     using the recursive formula: a_n = r + a_{n-1}
 
     Args:
-        a1 (float): The first term of the geometric progression.
-        r (float):  The common ratio of the geometric progression.
+        a1 (float): The first term of the progression.
+        r (float):  The common ratio of the progression.
         n (int):    The term number to calculate (positive integer).
 
     Returns:
-        float:      The value of the n-th term in the geometric progression.
+        float:      The value of the n-th term in the progression.
     """
     if n <= 0:
         raise ValueError("n must be a positive integer")
@@ -24,15 +24,15 @@ def progress(a1: float, r: float, n: int) -> float:
 
 def sum_progress(a1, r, n):
     """
-    Calculate the sum of the first n terms of a geometric progression.
+    Calculate the sum of the first n terms of a progression.
 
     Parameters:
-    a1 (float): The first term of the geometric progression.
-    r (float): The common ratio of the geometric progression.
+    a1 (float): The first term of the progression.
+    r (float): The common ratio of the progression.
     n (int): The number of terms to sum.
 
     Returns:
-    float: The sum of the first n terms of the geometric progression.
+    float: The sum of the first n terms of the progression.
     """
     if n == 1:
         return a1
