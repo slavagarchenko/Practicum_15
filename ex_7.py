@@ -1,4 +1,4 @@
-def mod(a, b):
+def mod(a: int, b: int) -> int:
     """
     Calculate the greatest common divisor (GCD) of two numbers using the Euclidean algorithm.
     
