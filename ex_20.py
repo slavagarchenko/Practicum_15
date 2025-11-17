@@ -1,4 +1,4 @@
-def comp(a, b, m, n):
+def comp(a: int, b: int, m: int, n: int) -> int:
     """
     Find the length of the longest common subsequence (LCS) between two strings using recursion.
     
