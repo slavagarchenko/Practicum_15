@@ -1,4 +1,4 @@
-def ind_maxlist(a, index=0):
+def ind_maxlist(a: list, index=0) -> int:
     """
     Find the index of the maximum element in a list using recursion.
     
