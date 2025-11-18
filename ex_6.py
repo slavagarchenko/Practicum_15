@@ -36,12 +36,6 @@ try:
         if result == -1:
             print(f"Число {n} не является степенью 5")
 
-        elif result == 0:
-            print(f"5^{result} = {n} (любое число в степени 0 равно 1)")
-
-        elif result == 1:
-            print(f"5^{result} = {n}")
-
         else:
             print(f"5^{result} = {n}")
 
