@@ -22,13 +22,12 @@ def maxlist(a: list) -> Any:
 
 
 try:
-    user_input = input("Введите список чисел через пробел: ")
+    a = list(map(int, input("Введите список чисел: ").split()))
 
-    if not user_input.strip():
+    if not a:
         print("Ошибка! Список не может быть пустым")
 
     else:
-        a = list(map(int, user_input.split()))
         result = maxlist(a)
         print(f"Максимальный элемент: {result}")
 
